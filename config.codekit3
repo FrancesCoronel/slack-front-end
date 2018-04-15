@@ -86,8 +86,8 @@
 	"creationDate": 545331815,
 	"displayValue": "slack-diversity-charts",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-confession",
-	"iconImageWasSetByUser": 0
+	"iconImageName": "meme-hart",
+	"iconImageWasSetByUser": 1
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

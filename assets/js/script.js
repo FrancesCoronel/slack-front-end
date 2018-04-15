@@ -1,53 +1,4 @@
 /**
- * Fun Stuff
- * Changing title to something random
- */
-var title = document.title;
-
-var altTitles = [
-  "Whatcha up to? 👀",
-  "'Ello Gov'nor! 🎩",
-  "Top o' the mornin' to ya! ☘",
-  "Wubba, lubba dub-dub! 🔬️",
-  "E.T. phone home. 👽",
-  "There's no place like home. 🏠",
-  "Live long and prosper. 🖖",
-  "Here's Johnny! 🔪",
-  "My precious. 💍",
-  "Do you read me, HAL? 🔴",
-  "Expecto patronum! ⚡",
-  "You've been such a peach! 🍑",
-  "Slack is super cool, isn't it? 🤔️",
-  "Vanilla is my favorite ice cream and JS flavor 🍦"
-];
-
-window.onblur = () => {
-  document.title = altTitles[Math.floor(Math.random() * altTitles.length)];
-};
-
-window.onfocus = () => {
-  document.title = title;
-};
-
-/**
- * Some fun console messages
- */
-console.error(
-  "Error: This website is too awesome, Chrome is having trouble processing all it's amazing raw power. See https://fvcproductions.com for a less intense but equally cool website."
-);
-console.log("Did you look at the HTML? There's some sweet ASCII art in there!");
-console.info(
-  "You're probably wondering how I got the titles to switch around."
-);
-console.info(
-  "Well, using the built in methods of onblur and onfocus of the window object, I can manipulate the title whenever a user isn't focusing on my page."
-);
-console.info("Neat, right? 😊");
-console.info(
-  "Okay so all these chrome.loadTimes() warnings are coming from Airtable's widget. 🙄️"
-);
-
-/**
  * Defining the charts
  */
 
@@ -173,3 +124,52 @@ let contributions = new Chart("githubContributions", {
     ]
   }
 });
+
+/**
+ * Fun Stuff
+ * Changing title to something random
+ */
+var title = document.title;
+
+var altTitles = [
+  "Whatcha up to? 👀",
+  "'Ello Gov'nor! 🎩",
+  "Top o' the mornin' to ya! ☘",
+  "Wubba, lubba dub-dub! 🔬️",
+  "E.T. phone home. 👽",
+  "There's no place like home. 🏠",
+  "Live long and prosper. 🖖",
+  "Here's Johnny! 🔪",
+  "My precious. 💍",
+  "Do you read me, HAL? 🔴",
+  "Expecto patronum! ⚡",
+  "You've been such a peach! 🍑",
+  "Slack is super cool, isn't it? 🤔️",
+  "Vanilla is my favorite ice cream and JS flavor 🍦"
+];
+
+window.onblur = () => {
+  document.title = altTitles[Math.floor(Math.random() * altTitles.length)];
+};
+
+window.onfocus = () => {
+  document.title = title;
+};
+
+/**
+ * Some fun console messages
+ */
+console.error(
+  "Error: This website is too awesome, Chrome is having trouble processing all the amazing raw power. Refer to https://fvcproductions.com for a less intense but equally cool website."
+);
+console.log("Did you look at the HTML? There's some sweet ASCII art in there!");
+console.info(
+  "You're probably wondering how I got the titles to switch around."
+);
+console.info(
+  "Well, using the built in methods of onblur and onfocus of the window object, I can manipulate the title whenever a user isn't focusing on my page."
+);
+console.info("Neat, right? 😊");
+console.info(
+  "Okay so all these chrome.loadTimes() warnings are coming from Airtable's widget. 🙄️"
+);
