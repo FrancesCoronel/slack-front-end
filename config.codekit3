@@ -7,8 +7,62 @@
 		"uuidString": "03D36F2D-63AD-4EEA-8A47-2697EE002B43"
 		}
 	],
-"creatorBuild": "26680",
+"creatorBuild": "25900",
 "files": {
+	"\/.github\/CONTRIBUTING.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/.github\/CONTRIBUTING.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/.github\/ISSUE_TEMPLATE.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/.github\/ISSUE_TEMPLATE.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/.github\/PULL_REQUEST_TEMPLATE.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/.github\/PULL_REQUEST_TEMPLATE.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/assets\/css\/styles.css": {
 		"aP": 1,
 		"bl": 0,
@@ -52,22 +106,39 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"\/CODE_OF_CONDUCT.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/CODE_OF_CONDUCT.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/index.html": {
-		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index.html",
 		"oF": 0
 		},
 	"\/README.md": {
-		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
+		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/README.html",
 		"oF": 1,
 		"oFM": 0,
@@ -86,8 +157,7 @@
 	"creationDate": 545331815,
 	"displayValue": "slack-diversity-charts",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-hart",
-	"iconImageWasSetByUser": 1
+	"iconImageName": "meme-hart"
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -95,7 +165,6 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
-	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
@@ -624,10 +693,6 @@
 			"active": 0,
 			"optionString": "'expression'"
 			},
-		"function-paren-newline": {
-			"active": 0,
-			"optionString": "'multiline'"
-			},
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
@@ -659,10 +724,6 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
-			},
-		"implicit-arrow-linebreak": {
-			"active": 0,
-			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,
@@ -696,9 +757,9 @@
 			"active": 0,
 			"optionString": "{'beforeBlockComment': true}"
 			},
-		"lines-between-class-members": {
+		"lines-around-directive": {
 			"active": 0,
-			"optionString": "'always', {exceptAfterSingleLine: false}"
+			"optionString": "{'before': 'always', 'after': 'always'}"
 			},
 		"max-depth": {
 			"active": 0,
@@ -728,10 +789,6 @@
 			"active": 0,
 			"optionString": "{'max': 1}"
 			},
-		"multiline-comment-style": {
-			"active": 0,
-			"optionString": "'starred-block'"
-			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -741,6 +798,14 @@
 			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
 			},
 		"new-parens": {
+			"active": 0,
+			"optionString": ""
+			},
+		"newline-after-var": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"newline-before-return": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -1844,8 +1909,7 @@
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"outputStyle": 0,
-		"syntaxCheckerStyle": 1,
-		"transpilerStyle": 1
+		"syntaxCheckerStyle": 1
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 0,
@@ -1878,7 +1942,6 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"outputStyle": 0,
-		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -1890,7 +1953,6 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
@@ -1921,8 +1983,7 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "kit",
 		"autoOutputPathReplace2": "html",
-		"autoOutputPathStyle": 0,
-		"shouldRunCacheBuster": 0
+		"autoOutputPathStyle": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -1954,13 +2015,13 @@
 		"enableFootnotes": 1,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"maskEmailAddresses": 1,
 		"outputFormat": 0,
 		"outputStyle": 0,
 		"parseMetadata": 1,
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
-		"shouldRunCacheBuster": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -1969,8 +2030,7 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0,
-		"shouldRunCacheBuster": 0
+		"autoOutputPathStyle": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -1990,8 +2050,7 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
-		"outputStyle": 0,
-		"shouldRunCacheBuster": 0
+		"outputStyle": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -2019,8 +2078,7 @@
 		"logicless": 0,
 		"outputFormat": 0,
 		"outputStyle": 1,
-		"railsCompatible": 0,
-		"shouldRunCacheBuster": 0
+		"railsCompatible": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
