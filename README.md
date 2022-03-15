@@ -2,8 +2,6 @@
 
 # Slack Front End
 
-> View this project at [`fvcproductions.github.io/slack-front-end`](https://fvcproductions.github.io/slack-front-end)
-
 ## Tools
 
 * [GitHub Pages](https://pages.github.com)
@@ -15,13 +13,13 @@
 
 > To get started...
 
-1.  🍴 [Fork this repo](https://github.com/fvcproductions/slack-front-end#fork-destination-box)
+1.  🍴 [Fork this repo](https://github.com/francescoronel/slack-front-end#fork-destination-box)
 2.  🔨 View the contributing guidelines at [CONTRIBUTING.md](CONTRIBUTING.md)
 3.  👥 Add yourself as a contributor under the credits section
-4.  🔧 [Open a new pull request](https://github.com/fvcproductions/slack-front-end/compare)
+4.  🔧 [Open a new pull request](https://github.com/francescoronel/slack-front-end/compare)
 5.  🎉 Get your pull request approved - success!
 
-Or just [create an issue](https://github.com/fvcproductions/slack-front-end/issues) - any little bit of help counts! 😊
+Or just [create an issue](https://github.com/francescoronel/slack-front-end/issues) - any little bit of help counts! 😊
 
 ## Code of Conduct
 
@@ -31,4 +29,4 @@ More details can be found at this project's [code of conduct](.github/CODE_OF_CO
 
 ## Credits
 
-* [FVCproductions](https://github.com/fvcproductions) 🍓🍫
+* [francescoronel](https://github.com/francescoronel) 🍓🍫
